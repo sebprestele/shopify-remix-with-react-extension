@@ -1,0 +1,23 @@
+<div id="root">
+  {% liquid
+    # Relative to entrypointsDir
+    render 'vite-tag' with 'theme.jsx'
+  %}
+</div>
+
+<script>
+  const home = "pages/contact"
+</script>
+
+{% schema %}
+{
+  "name": "Sample React Extension",
+  "templates": [
+    "page"
+  ],
+  "target": "section",
+  "settings": [
+
+  ]
+}
+{% endschema %}

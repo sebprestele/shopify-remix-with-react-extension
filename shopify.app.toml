@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "klaviyo-test"
+client_id = "76273242c754c880f2076a778605e6ce"
+application_url = "https://arctic-eval-expects-christ.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://arctic-eval-expects-christ.trycloudflare.com/auth/callback",
+  "https://arctic-eval-expects-christ.trycloudflare.com/auth/shopify/callback",
+  "https://arctic-eval-expects-christ.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "sebastian-prestele-test-store.myshopify.com"
