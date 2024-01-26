@@ -2,7 +2,7 @@
 
 name = "klaviyo-test"
 client_id = "76273242c754c880f2076a778605e6ce"
-application_url = "https://arctic-eval-expects-christ.trycloudflare.com"
+application_url = "https://bottom-can-appraisal-pottery.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://arctic-eval-expects-christ.trycloudflare.com/auth/callback",
-  "https://arctic-eval-expects-christ.trycloudflare.com/auth/shopify/callback",
-  "https://arctic-eval-expects-christ.trycloudflare.com/api/auth/callback"
+  "https://bottom-can-appraisal-pottery.trycloudflare.com/auth/callback",
+  "https://bottom-can-appraisal-pottery.trycloudflare.com/auth/shopify/callback",
+  "https://bottom-can-appraisal-pottery.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
